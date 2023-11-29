@@ -26,7 +26,7 @@ body{
 	grid-column-gap: 0px;
 	grid-row-gap: 0px;
 	font-family: 'Koulen', sans-serif;
-	margin-top: 8svh;
+	margin-top: 4svw;
 	
 	.icon{
 		grid-area: 1/1/2/2;
@@ -65,7 +65,7 @@ body{
 	grid-template-rows: 25.7svw;
 	grid-column-gap: 0px;
 	grid-row-gap: 0px;
-	margin-top: 5svh;
+	margin-top: 2svw;
 
 	.photo{
 		grid-area: 1/1/2/2;
@@ -92,7 +92,7 @@ body{
 			color: #BB2649;
 			background-color: transparent;
 			padding: 0 2em;
-			margin: 2em 0;
+			margin: 1svw 0;
 		}
 	}
 }
@@ -100,10 +100,10 @@ body{
 .services{
 	display: grid;
 	grid-template-columns: 30svw 70svw;
-	grid-template-rows: 1fr;
+	grid-template-rows: 36.55svw;
 	grid-column-gap: 0px;
 	grid-row-gap: 0px;
-	margin-top: 5svh;
+	margin-top: 2svw;
 
 	.info{
 		background-color: #BB2649;
@@ -113,8 +113,8 @@ body{
 		h1 { color: white; }
 		.service{
 			background-color: #D9D9D9;
-			margin: 2svh 0;
-			padding: 1svh;
+			margin: 1svw 0;
+			padding: .5svw;
 		}
 	}
 
@@ -204,7 +204,7 @@ body{
 		color: #222222;
 		background-color: transparent;
 		padding: 1em 3em;
-		margin: 5em 0;
+		margin: 6svw 0;
 	}
 }
 
@@ -215,3 +215,4 @@ body{
 		color: white;
 	}
 }
+  
