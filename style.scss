@@ -42,21 +42,33 @@ body{
 	.logotype{
 		grid-area: 1/2/2/3;
 		display: flex;
-		flex-direction: row;
-		align-items: flex-end;
+		flex-direction: column;
+		justify-content: center;
 		background: white;
-		padding-left: 5svw;
+		padding-left: 4.5svw;
 		color: #BB2649;
-		letter-spacing: 1svw;
+		letter-spacing: 0.8svw;
 		font-weight: bold;
 		
-		.big-text{
-			font-size: 15svw;
-			line-height: .9;
+		.text{
+			display: flex;
+			flex-direction: row;
+			align-items: flex-end;
+
+			.big-text{
+				font-size: 15svw;
+				line-height: 1;
+			}
+			.small-text{
+				font-size: 10svw;
+				line-height: 1.18;
+			}
 		}
-		.small-text{
-			font-size: 10svw;
-			line-height: 1.04;
+		.date{
+			h1{
+				font-size: 3.95svw;
+				line-height: 0.9;
+			}
 		}
 	}
 }
